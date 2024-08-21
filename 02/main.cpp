@@ -20,7 +20,7 @@ int countGreater(int arr[], int size, int key) {
     return (size - leftGreater);
 }
 
-int main(int argc, char** arcv) {
+int main(int argc, char** arcv) { 
     system("chcp 1251");
     int array[] = { 14, 16, 19, 32, 32, 32, 56, 69, 72 };
     int size = sizeof(array) / sizeof(array[0]);
